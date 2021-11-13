@@ -1,0 +1,264 @@
+body{
+	margin:0px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+
+header li{
+    margin:0 16px;
+}
+
+header  a{
+    font-size: 32px;
+    color:#fff;
+}
+
+header a.active,
+header a:hover{
+    color:#444;}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    
+    z-index: 1000;
+    padding:1.5rem 7%;
+    box-shadow: 0 1.6px 4.8px rgba(0,0,0,.3);
+    background-color: #E7BAA0;
+}
+header .logo {
+	width: 80px;
+	border-radius: 50%;
+	position: absolute;
+	top:25px;
+	left: 130px;
+	cursor: pointer;}
+section .backgimg {
+	position: relative;
+	width: 100%;
+	height: 5%;
+	margin-left:0px;
+	margin-right: 0px;
+}
+header #login{
+  cursor:pointer;
+}
+.home{
+    display: flex;
+    
+    justify-content: center;
+    
+    position: relative;
+    text-align: center;
+}
+
+.home h1{
+    font-size: 50px;
+    color:#666;
+    position: absolute;
+    top: 90px;
+}
+.home p{
+    font-size: 30px;
+    color: black ;
+     position: absolute;
+    top: 230px;
+}
+.btn{
+    font-size: 32px;
+    color:black;
+    border-radius: 80px;
+    margin-top: 16px;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+}
+.btn:hover{
+  background-color: #E7BAA0;
+}
+.home .btn{
+	top:360px;
+	left:600px;
+}
+.about h3{
+	text-align: center; 
+	color : #6D7973 ;
+	font-size: 50px;
+}
+.about img {
+	position: relative;
+	height: 300px;
+	border-radius: 50%;
+
+}
+.about  p {
+	color: black ;
+	position: absolute;
+	font-size: 26px;
+	right: 30px;
+	top : 1050px;
+
+}
+.about .btn {
+	top : 1300px;
+	right: 350px;
+}
+.course h1 {
+    text-align: center; 
+    color : #6D7973 ;
+    font-size: 50px;
+}
+.course .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.course .box{
+    width:560px;
+    border:3px solid rgba(0,0,0,.3);
+    position: relative;
+    margin:24px;  
+}
+
+.course  img{
+    height:320px;
+    width: 80%;
+    object-fit: cover;
+}
+.course .content{
+    padding:16px;
+}
+
+.course .stars i{
+    color:#6D7973 ;
+    font-size: 20px;
+    padding:16px 1.6px;
+}
+
+.course  .title{
+    color:#444;
+    font-size:30px;
+}
+
+.course .title:hover{
+    text-decoration: underline;
+  color:#E7BAA0;
+}
+
+.teachers h1{
+   font-size: 50px;
+    color:#666;
+    text-align: center;
+}
+.card:hover {
+  box-shadow: 0 15px 25px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 15px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  text-align: center;
+  background-color: whitesmoke;
+
+}
+
+
+.contact h1 {
+    font-size: 50px;
+    color:#666;
+    text-align: center;
+    top: 400px;
+
+
+}
+
+
+ .contact .row {
+    background-color: #B2B2A2;
+    width:800px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+
+#registerform {
+     
+    text-align :center;
+    font-size: 32px;
+        padding-top: 56px;
+        padding-bottom: 32px;
+        width:400px;
+        background-color:white;
+        border:1px solid #ccC;
+        margin-left:auto;
+        margin-right:auto;
+}
+.contact .box{
+    font-size: 18px;
+        padding-bottom: 12px;
+        margin-bottom: 36px;
+        border: 0;
+        border-bottom:1px solid #ccc;
+}
+.btn1{
+    font-size: 16px;
+    color:black;
+    border-radius: 80px;
+    cursor: pointer;
+    overflow: hidden;
+    }
+.btn1:hover{
+  background-color: #E7BAA0;
+}
+    .footer{
+        background-color: #B2B2A2;
+    }
+    .footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .box{
+    margin:24px;
+    text-align: center;
+}
+
+.footer  h3{
+    font-size: 40px;
+    color:#fff;
+    padding:16px 0;
+}
+
+.footer p{
+    font-size: 27px;
+    color:#eee;
+    padding:11px 0;
+}
+
+.footer  i{
+    padding-right:8px;
+    color:black;
+}
